@@ -1,10 +1,13 @@
 <template>
-  <div class="max-w-sm rounded overflow-hidden shadow-lg text-center">
+  <router-link
+    :to="`/styles/${title}`"
+    class="max-w-sm rounded overflow-hidden shadow-lg text-center"
+  >
     <img class="w-full" :src="require(`../assets/${directory}`)" />
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">{{title}}</div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>

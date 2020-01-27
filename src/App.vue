@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <div class="sticky top-0 bg-white">
-      <img class="w-64 mx-auto" alt="Vue logo" src="./assets/logo.png" />
+    <div class="sticky top-0 bg-white py-4">
+      <router-link to="/">
+        <img class="w-64 mx-auto" alt="Vue logo" src="./assets/logo.png" />
+      </router-link>
     </div>
     <router-view />
     <!-- <HelloWorld /> -->
@@ -21,11 +23,11 @@ export default {
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond,
+    Times New Roman, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 20px;
 }
 </style>

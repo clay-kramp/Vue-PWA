@@ -1,7 +1,7 @@
 <template>
   <div>
     <button
-      class="bg-white text-orange-700 font-semibold py-2 px-4 border border-orange-500 rounded"
+      class="bg-white text-gray-700 font-semibold py-2 px-4 border border-gray-500 rounded"
     >{{text}}</button>
   </div>
 </template>
